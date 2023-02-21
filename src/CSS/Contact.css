@@ -1,0 +1,20 @@
+.icons{
+    width: 25px; 
+}
+.social-media{
+    text-align: center;
+}
+.social-media-icons{
+    width: 70px;
+    display:inline-block;
+    padding:20px;
+}
+.social-media-icons:hover{
+    opacity:0.5;
+}
+@media screen and (max-width: 800px) {
+    .social-media-icons{
+        width: 50px;
+        padding:5px;
+    }    
+}
