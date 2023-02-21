@@ -8,7 +8,7 @@ function Experienta() {
   return (
     <div>
           <p id = "Experienta" className='text-secundar'>
-            Experiența de muncă <hr></hr>
+            Experiența <hr></hr>
           </p>
           <ul className='item'> 
             <h2>
