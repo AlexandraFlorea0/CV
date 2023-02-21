@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './CSS/App.css';
+import './CSS/Body.css';
 import './CSS/Navbar.css';
-import App from './App';
-import Navbar from './Navbar';
+import Body from './Components/Body';
+import Navbar from './Components/Navbar';
+import Contact from './Components/Contact';
 
 
 
@@ -11,7 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
         <Navbar />
-        <App />
+        <Body />
+        <Contact />
     </>
 );
 
